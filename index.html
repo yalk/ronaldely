@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Ronald Ely</title>
+	<link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="robots" content="all" />
+	<meta name="MSSmartTagsPreventParsing" content="true" />
+	<meta http-equiv="imagetoolbar" content="false" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->	
+	<style>
+		* { padding: 0; margin: 0; }
+		body { background-color: #333; }
+		p { color: #fff; font-family: Helvetica; font-size: 16px; line-height: 24px; margin-bottom: 22px; -webkit-font-smoothing: antialiased; }
+		a { color: #fff; font-weight: bold; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.3); }
+		a:hover { color: #990000; border-bottom: 1px solid rgba(255,255,255,1); }
+		#monogram { width: 50px; padding: 50px 0 0 0; margin: 0 auto 0 50px; }
+		#about { width: 600px; padding: 80px 0 0 80px;}
+		#logo { padding: 0 0 0 80px;}
+		@media (max-width: 767px) {
+			#monogram { position: relative; width: auto; padding: 20px; margin: 0; }
+			#about { position: relative; width: auto; padding: 20px; margin: 0 !important; }
+			#logo { position: relative; width: auto; padding: 20px; margin: 0 !important; }
+			background-image { opacity: 0.2; }
+		}
+	</style>
+</head>	
+    
+<body>
+
+<!-- swap out for a logo 
+<div id="monogram">
+	<img src="monogram.png" />
+</div>
+-->
+<!-- swap out for information about yourself -->
+<div id="about">
+	<font size="10" color="white" face="Helvetica"><b>Ronald Ely.</b></font>
+	<p><br>is a martial arts instructor at International Indo-Ryu Karate–Do Federation</p>
+	<p>A Sensei in Karate for the past 20 years with the knowledge of other martial arts like Judo, Aikido, Tai Chi and street self defence.</p>
+	<p>Currently based in Mumbai, Sensei Ronald Ely regularly trains individuals of age groups.</p>
+	<p></p>
+	<a class="socialIcons" href="https://www.facebook.com/ronald.ely.7" alt="Social Icon"><img src="img/fb.png" /></a>
+	<a class="socialIcons" href="mailto:ronaldely@gmail.com" alt="Social Icon"><img src="img/mail.png" /></a>
+	<p><br><font size="5">Contact:  +91 999 999 9999<br><br></font></p>
+	
+</div>
+<div id="logo">
+	<p>Affiliated to:</p>
+	<p><img src="img/iikf.png" width=100 height=100/>&emsp;<img src="img/aikf.png" width=100 height=100/>&emsp;<img src="img/ioa.png" width=100 height=100/>&emsp;<img src="img/afk.png" width=100 height=100/>&emsp;<img src="img/wkf.png" width=100 height=100/></p>
+</div>
+<!--include jquery & backstretch-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.backstretch.min.js"></script>
+<script type="text/javascript">
+$(function(){
+     $(window).resize(function(){
+         if($(this).width() >= 767){
+             $.backstretch("img/nh_bg5.jpg", {speed: 150});
+         }
+      })
+      .resize();//trigger resize on page load
+});
+</script>
+
+</body>	
+</html>
